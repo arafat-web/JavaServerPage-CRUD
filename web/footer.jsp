@@ -18,7 +18,7 @@
                 <hr>
                 <a href="index.jsp"><b>Back to Home</b></a>
                 <b>
-                    <span>All Right Reserved By</span>  <a href=""> Arafat Hossain Ar</a>
+                    <span>All Right Reserved By</span>  <a href=""> Arafat Hossain Ar </a>
                 </b>
             </div>
         </footer>

@@ -30,7 +30,7 @@
             <footer>
                 <div class="">
                     <hr>
-                    <b>
+                    <b style=" border-left: none;">
                         <span>All Right Reserved By</span>  <a href=""> Arafat Hossain Ar</a>
                     </b>
                 </div>
