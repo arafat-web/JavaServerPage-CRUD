@@ -22,7 +22,7 @@
         String sql = "Update records set name= ?, phone= ? where id=" + id;
 
         Class.forName("com.mysql.jdbc.Driver");
-          con = DriverManager.getConnection("jdbc:mysql://sql6.freemysqlhosting.net/sql6454572", "sql6454572", "Qzyu2Xhpuy");
+        con = DriverManager.getConnection("jdbc:mysql://localhost/jspcrud", "root", "");
         ps = con.prepareStatement(sql);
         ps.setString(1, name);
         ps.setString(2,phone);
