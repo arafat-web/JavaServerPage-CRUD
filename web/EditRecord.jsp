@@ -17,8 +17,7 @@
         String sql = "select * from records where id=" + id;
 
         Class.forName("com.mysql.jdbc.Driver");
-//        con = DriverManager.getConnection("jdbc:mysql://localhost/jspcrud", "root", "");
-        con = DriverManager.getConnection("jdbc:mysql://sql6.freemysqlhosting.net/sql6454572", "sql6454572", "Qzyu2Xhpuy");
+        con = DriverManager.getConnection("jdbc:mysql://localhost/jspcrud", "root", "");
         ps = con.prepareStatement(sql);
         resultSet = ps.executeQuery();
         while (resultSet.next()) {
