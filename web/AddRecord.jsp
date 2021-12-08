@@ -18,7 +18,7 @@
     String sql = "INSERT into records(id, name, phone) values(?, ?, ?)";
 
     Class.forName("com.mysql.jdbc.Driver");
-    con = DriverManager.getConnection("jdbc:mysql://sql6.freemysqlhosting.net/sql6454572", "sql6454572", "Qzyu2Xhpuy");
+    con = DriverManager.getConnection("jdbc:mysql://localhost/jspcrud", "root", "");
     ps = con.prepareStatement(sql);
     ps.setInt(1, Integer.parseInt(id));
     ps.setString(2, name);
